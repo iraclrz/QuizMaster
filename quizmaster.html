@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz Master</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/0e5badec26.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!--Start Quiz Button -->
+	<div class="start_btn"><button>Start Quiz</button></div>
+	
+	<!-- Info Box -->
+	<div class="info_box">
+		<div class="info_title">
+			<span>Instructions of this Quiz</span>
+		</div>
+		<div class="info_list">
+			<div class="info">1. You only have <span>30 seconds</span> for each question.</div>
+			<div class="info">2. The quiz is divided into 3 parts: grammar, true or false, and analogy.</div>
+			<div class="info">3. Choose the correct answer.</div>
+			<div class="info">4. You can't select any option once time goes off.</div>
+			<div class="info">5. You'll get 1 point on every correct answer.</div>
+		</div>
+		<div class="buttons">
+			<button class="quit">Exit Quiz</button>
+			<button class="restart">Continue</button>
+		</div>
+	</div>
+	<!-- Quiz Box -->
+	<div class="quiz_box">
+		<header>
+			<div class="title">Quiz Master</div>
+			<div class="timer">
+				<div class="time_text">Time Left</div>
+				<div class="timer_sec">30</div>
+			</div>
+			<div class="time_line"></div>
+		</header>
+		<section>
+			<div class="que_text">
+				<!--<span>Once upon a time there _____ (live) a man called Jupiter.</span>-->
+			</div>
+			<div class="option_list">
+				
+			</div>
+		</section>
+		<!-- Quiz Box Footer -->
+		<footer>
+			<div class="total_que">
+				<!-- <span><p>1</p>of<p>15</p>Questions</span> -->
+			</div>
+			<button class="next_btn">Next Question</button>
+		</footer>
+	</div>
+	<!--Result Box-->
+	<!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+	
+	<script src="questions.js"></script>
+	<script src="script.js"></script>
+	
+</body>
+</html>
