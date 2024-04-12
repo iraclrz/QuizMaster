@@ -1,2 +1,2 @@
 # QuizMaster
-This quiz is composed of 3 parts: grammar, true or false, and analogy. This is made using HTML, CSS, and JavaScript.
+This quiz is divided into three sections: grammar, true or false, and analogy. It offers immediate feedback, highlighting correct answers in green and incorrect ones in red. Developed with HTML, CSS, and JavaScript, it ensures a seamless user experience. At the end, participants receive an overall score, fostering continuous learning and improvement. This interactive tool blends technology with education, facilitating engaging assessments and promoting intellectual development.
